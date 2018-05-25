@@ -1,0 +1,172 @@
+/*Main CSS file applied across all pages*/
+
+/*Override default margins and fonts*/
+*
+{
+	margin: 0em;
+	padding: 0em;
+}
+
+/*A nice teal background*/
+html, body
+{
+    background-color: #85CBCE;
+}
+
+/*Fun little us thing*/
+#us
+{ 
+    color: white; 
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.7em;
+    padding: 1em; 
+    margin: auto;
+    margin-top: auto;
+    text-align: center;
+}
+
+#us a
+{
+    color: white;
+    text-decoration: none;
+}
+
+#us a:hover
+{
+    background-color: #5ED6CA;
+    border-radius: .5em;
+    border-radius: .5em;
+}
+
+h2
+{
+    font-size: 1.6em;
+    font-family: 'Dancing Script', cursive;
+}
+
+p
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+h3
+{
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*Highlights for Tim words*/
+.tim
+{
+    color: #4D98DD;
+}
+
+/*Highlights for Victoria words*/
+.victoria
+{
+    color: #FFE330;
+}
+
+/*Nav bar*/
+#nav-main
+{
+    background-color: #85CBCE;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+    margin: auto;
+}
+
+#nav-main ul
+{
+    list-style: none; 
+    display: block;
+}
+
+#nav-main li
+{
+    display: inline;
+    margin: 0; 
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+#nav-main a 
+{
+    color: white;
+    margin-bottom: 1em;
+    padding: 0em;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* Change the link color */
+#nav-main li:hover 
+{
+    background-color: #5ED6CA;
+    border-top-right-radius: .5em;
+    border-top-left-radius: .5em;
+}
+
+/* Change color of current tab */
+.activelink
+{
+    background-color: #64A6BD;
+    border: 2px;
+    border-top-right-radius: .5em;
+    border-top-left-radius: .5em;
+}
+
+footer
+{
+    margin-top: 2em;
+    width: 100%;
+    text-align: center;
+	background-color: #85CBCE;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*Footer text to white*/
+footer > p
+{
+    color: white;
+}
+
+
+/*Mobile*/
+@media screen and (max-width: 700px) 
+{
+    #nav-main
+    {
+        border-bottom: 3px solid white;
+        border-top: 3px solid white;
+    }
+    #nav-main li
+    {
+        display: block;
+        text-align: center;
+        border-right: none;
+        border-bottom: 3px solid white;
+    }
+    #nav-main a 
+    {
+        margin: 0;
+        padding: 0;
+        font-size: 1em;
+    }
+    /* Change the link color */
+    #nav-main li:hover 
+    {
+        background-color: #5ED6CA;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+    }
+    
+    /* Change color of current tab */
+    .activelink
+    {
+        background-color: #64A6BD;
+        border: 2px;
+        border-top-right-radius: 0;
+        border-top-left-radius: 0;
+    }
+}

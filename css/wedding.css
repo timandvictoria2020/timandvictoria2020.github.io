@@ -1,0 +1,92 @@
+/*Fun little us thing*/
+#us
+{ 
+    color: white; 
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+    padding: 1em; 
+    margin: auto;
+    margin-top: auto;
+    text-align: center;
+}
+
+#couple
+{
+    width: 100%;
+}
+
+/*Nav bar should float left*/
+#nav
+{
+    background-color: #85CBCE;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2em;
+    margin: auto;
+}
+
+#nav ul
+{
+    list-style: none; 
+    display: block;
+}
+
+#nav li
+{
+    display: inline;
+    margin: 0; 
+    padding-right: 1em;
+    padding-left: 1em;
+    border-right: 3px solid white;
+}
+
+#nav > ul > li:nth-child(4)
+{
+    border-right: none;
+}
+
+#nav a 
+{
+    color: white;
+    margin-bottom: 1em;
+    padding: 0em;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* Change the link color */
+#nav li:hover 
+{
+    background-color: #5ED6CA;
+}
+
+
+/*Mobile*/
+@media screen and (max-width: 700px) 
+{
+    /*Fun little blurb thing*/
+    #us
+    { 
+        color: white; 
+        font-family: 'Dancing Script', cursive;
+        font-size: 1.5em;
+        padding: 1em; 
+        margin: auto;
+        margin-top: auto;
+        text-align: center;
+    }
+    
+    #nav li
+    {
+        display: block;
+        text-align: center;
+        border-right: none;
+        border-bottom: 3px solid white;
+    }
+    #nav a 
+    {
+        margin: 0;
+        padding: 0;
+        font-size: 1em;
+    }
+}
