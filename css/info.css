@@ -1,25 +1,25 @@
 #about > p
 {
-    float: none;
+	float: none;
 }
 
 #faq > img
 {
-    float: left;
-    width: 100%;
-    background-color: white;
+	float: left;
+	width: 100%;
+	background-color: white;
 }
 
 #faq
 {
-    display: inline-block;
-    background-color: white;
-    width: 100%;
+	display: inline-block;
+	background-color: white;
+	width: 100%;
 }
 
 #faq-text
 {
-    float: left;
-    padding: 1em;
-    padding-top: 1.5em;
+	float: left;
+	padding: 1em;
+	padding-top: 1.5em;
 }
