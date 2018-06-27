@@ -3,21 +3,21 @@
 	float: none;
 }
 
-#faq > img
+#info > img
 {
 	float: left;
 	width: 100%;
 	background-color: white;
 }
 
-#faq
+#info
 {
 	display: inline-block;
 	background-color: white;
 	width: 100%;
 }
 
-#faq-text
+#info-text
 {
 	float: left;
 	padding: 1em;
