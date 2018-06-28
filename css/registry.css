@@ -1,0 +1,26 @@
+.couple-pic
+{
+	float: left;
+	width: 20%;
+	background-color: white;
+}
+
+.logo
+{
+    padding: .5em;
+    width: 10%;
+}
+
+section
+{
+	display: inline-block;
+	width: 100%;
+}
+
+#info-text
+{
+	float: left;
+	padding: 1em;
+	padding-top: 1.5em;
+}
+
