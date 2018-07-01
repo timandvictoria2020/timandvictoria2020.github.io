@@ -24,3 +24,17 @@ section
 	padding-top: 1.5em;
 }
 
+/* Responsive layout */
+@media screen and (max-width: 900px) {
+  .couple-pic {
+    flex: 100%;
+    width: 100%;
+  }
+  
+  .logo
+    {
+        padding: .5em;
+        width: 50%;
+    }
+}
+
