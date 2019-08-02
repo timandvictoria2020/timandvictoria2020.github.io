@@ -22,10 +22,12 @@
 	font-family: 'Dancing Script', cursive;
 	font-size: 2em;
 	margin: auto;
+	width: 100%;
 }
 
 #nav ul
 {
+	width: 100%;
 	list-style: none; 
 	display: block;
 }
@@ -34,12 +36,12 @@
 {
 	display: inline;
 	margin: 0; 
-	padding-right: 1em;
-	padding-left: 1em;
+	padding-right: .5em;
+	padding-left: .5em;
 	border-right: 3px solid white;
 }
 
-#nav > ul > li:nth-child(5)
+#nav > ul > li:nth-child(6)
 {
 	border-right: none;
 }
@@ -62,7 +64,7 @@
 
 
 /*Mobile*/
-@media screen and (max-width: 700px) 
+@media screen and (max-width: 1100px) 
 {
 	/*Fun little blurb thing*/
 	#us

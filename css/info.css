@@ -3,10 +3,28 @@
 	float: none;
 }
 
-img
+.story-pic
 {
 	float: left;
 	width: 100%;
+	background-color: white;
+}
+
+.side-pic-left
+{
+	float: left;
+	margin-right: 1em;
+	margin-bottom: 1em;
+	width: 30%;
+	background-color: white;
+}
+
+.side-pic-right
+{
+	float: right;
+	margin-left: 1em;
+	margin-bottom: 1em;
+	width: 30%;
 	background-color: white;
 }
 
@@ -22,4 +40,24 @@ img
 	float: left;
 	padding: 1em;
 	padding-top: 1.5em;
+}
+
+/*Mobile*/
+@media screen and (max-width: 900px) 
+{
+	.side-pic-left
+	{
+		float: left;
+		margin-right: 1em;
+		width: 40%;
+		background-color: white;
+	}
+	
+	.side-pic-right
+	{
+		float: right;
+		margin-left: 1em;
+		width: 40%;
+		background-color: white;
+	}	
 }
