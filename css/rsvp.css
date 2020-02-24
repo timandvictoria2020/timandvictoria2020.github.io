@@ -1,0 +1,26 @@
+#rsvp
+{ 
+	color: white; 
+    font-family: 'Dancing Script', cursive;
+	font-size: 1.7em;
+	padding: 1em; 
+	margin: auto;
+	margin-top: auto;
+	text-align: center;
+}
+
+#rsvp a
+{
+    background-color: #85CBCE;
+	color: white;
+    text-decoration: none;
+    border-radius: .5em;
+	border-radius: .5em;
+}
+
+#rsvp a:hover
+{
+	background-color: #5ED6CA;
+	border-radius: .5em;
+	border-radius: .5em;
+}
