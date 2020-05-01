@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)timandvictoria.us/.*$ [NC]
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)victoriaandtim.us/.*$ [NC]
+RewriteRule \.(gif|jpg|jpeg|bmp|zip|rar|mp3|flv|swf|xml|php|png|css|pdf)$ - [F]
